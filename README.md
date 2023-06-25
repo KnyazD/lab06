@@ -105,3 +105,6 @@ jobs:
 Выдает ошибку в actions: **Error 403: Resource not accessible by integration.**<br/>
 Нашёл решение в интернете:<br/>
 В настройках репозитория **actions, Workflow permissions** поставить опцию **Read and write**<br/>
+Дополнительно прописал в самом Cl_release.yml
+permissions:
+  contents: write

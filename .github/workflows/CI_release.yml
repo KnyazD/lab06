@@ -1,5 +1,6 @@
 name: CMake
-
+permissions:
+  contents: write
 on:
  push:
    tags:

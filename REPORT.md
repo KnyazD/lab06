@@ -2,15 +2,6 @@
 
 ### Цель - изучение средств пакетирования на примере CPack.
 
-Из lab3 скопирую следующие дирректории:
-```
-formatter_ex_lib
-formatter_lib
-hello_world_application
-solver_application
-solver_lib 
-```
-
 Cоздам CMakeLists.txt:
 ```
 cmake_minimum_required(VERSION 3.4)

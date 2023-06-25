@@ -112,13 +112,8 @@ jobs:
 ```
 
 Выдает ошибку в actions: **Error 403: Resource not accessible by integration.**<br/>
-Нашла решение в интернете:<br/>
+Нашёл решение в интернете:<br/>
 В настройках репозитория **actions, Workflow permissions** поставить опцию **Read and write**<br/>
 
-Создам tag и запушу:
-```
-$ git tag v0.1
-$ git push origin v0.1
-```
 
  
